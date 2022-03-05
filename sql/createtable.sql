@@ -33,6 +33,9 @@ constraint usuarios_fk foreign key(usuarios_id) references usuarios(ID),
 constraint postestado_fk foreign key(postestado_id)references postestado(ID)
 );
 
+/*Se crea la tabla comentarios 
+@description En esta tabla se almacenan los comentarios de los post
+*/
 create table comentario(
 id int not null auto_increment comment'identificador de comentario',
 usuarios_id int comment'identificador de usuario',
@@ -43,6 +46,7 @@ fechacreacion datetime comment'identificador de fecha ',
 primary key(ID)
 );
 
+/*Se añaden las llaves foraneas de las tablas*/
 alter table comentario 
 add constraint usuario_fk foreign key(usuarios_id) references usuarios(ID);
 
@@ -52,13 +56,14 @@ add constraint comment_fk foreign key(comentarioestado_id) references comentario
 alter table comentario
 add constraint publicacion_fk foreign key(post_id) references post(ID);
 
+/*Se crea tabla para manejar los estados de los post*/
 create table postestado(
 id int not null auto_increment comment'identificador de comentario del post',
 detaller varchar(45) comment'identificador de detalle',
 primary key(ID)
 );
 
-
+/*Se crea tabla para manejar los estados de los comentarios*/
 create table comentarioestado(
 id int not null auto_increment comment'identificador de comentario del post',
 detalle varchar(45) comment'identificador de detalle',
