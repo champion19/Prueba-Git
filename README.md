@@ -20,6 +20,9 @@ Para poner en marcha este repositorio debes hacer lo siguiente
 [Aquí](./sql/createtable.sql) Encontrarás la estructura para que ejecutes la base de datos en tu entorno
 
 # 3. Hacer SELECT en SQL
+[Aqui](./sql/select.sql) encontraras la informacion para seleccionar la informacion de una tabla seleccionada.
+
+``SELECT * FROM users``
 
 
 # 4. Hacer INSERT INTO en SQL
