@@ -26,3 +26,7 @@ Para poner en marcha este repositorio debes hacer lo siguiente
 
 
 # 4. Hacer INSERT INTO en SQL
+[Aqui](./sql/insert-into.sql) encontraras la informacion adecuada para insertar informacion en la tabla que desees.
+
+``INSERT INTO usuarios(pefil_id,nombre,apellido,email,fechacreacion)
+VALUES(1,'Emmanuel','Londoño Gomez','emmalondogo@gmail.com',now());``
