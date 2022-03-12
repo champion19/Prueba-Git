@@ -72,3 +72,10 @@ left join Perfil on perfil.ID= usuarios.perfil_id
 from usuarios
 right join Perfil on perfil.ID= usuarios.perfil_id;
 ``
+
+# 12. USAR EL COMANDO IN EN SQL
+[Aqui].(sql/in.sql)encontraras la forma adecuada de usar el comando para especificar multiples valores en una condicion where.
+
+``
+select nombre from usuarios where nombre in ('travis','santiago');
+``
