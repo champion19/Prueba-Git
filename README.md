@@ -46,4 +46,13 @@ ALTER TABLE perfiles
 ALTER COLUMN detalle nvarchar(255);
 ``
 
+# 7. Haer UN INNER JOIN EN SQL
+[Aqui](.sql/innerJoin.sql)encontraras el comando adecuado para mirar la informacion de la tabla.
+
+``
+from usuarios
+inner join Perfil on perfil.ID= usuarios.perfil_id;
+``
+
+
 
