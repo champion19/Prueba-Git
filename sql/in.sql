@@ -1,0 +1,1 @@
+select nombre from usuarios where nombre in ('travis','santiago');
