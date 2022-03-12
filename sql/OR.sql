@@ -1,0 +1,1 @@
+select * from usuarios where ID=1 or apellido="barker";
