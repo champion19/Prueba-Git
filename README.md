@@ -79,3 +79,7 @@ right join Perfil on perfil.ID= usuarios.perfil_id;
 ``
 select nombre from usuarios where nombre in ('travis','santiago');
 ``
+
+# 13 USAR EL COMANDO **_AND_** EN SQL
+
+[Aquí](./sql/and.sql) encontraras la forma adecuada de usar el comando para especificar si las condiciones asignadas por este, son ciertas.
