@@ -46,7 +46,7 @@ ALTER TABLE perfiles
 ALTER COLUMN detalle nvarchar(255);
 ``
 
-# 7. Haer UN INNER JOIN EN SQL
+# 7. Hacer UN INNER JOIN EN SQL
 [Aqui](.sql/innerJoin.sql)encontraras el comando adecuado para mirar la informacion de la tabla.
 
 ``
@@ -54,5 +54,8 @@ from usuarios
 inner join Perfil on perfil.ID= usuarios.perfil_id;
 ``
 
+
+# 8. HACER UN LEFT JOIN EN SQL
+[Aqui](.sql/leftJoin.sql) encontraras el comando adecuado para encontrar la informacion de la tabla de la izquierda y las entradas parecidas de la tabla de la derecha.
 
 
