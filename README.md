@@ -59,3 +59,16 @@ inner join Perfil on perfil.ID= usuarios.perfil_id;
 [Aqui](.sql/leftJoin.sql) encontraras el comando adecuado para encontrar la informacion de la tabla de la izquierda y las entradas parecidas de la tabla de la derecha.
 
 
+``
+from usuarios 
+left join Perfil on perfil.ID= usuarios.perfil_id
+``
+
+
+# 9. HACER UN RIGHT JOIN EN SQL
+[Aqui](.sql/right-join.sql)encontraras el comando adecuado para encontrar la informacion de la tabla de la derecha y las entradas parecidas de la tabla de la izquierda.
+
+``
+from usuarios
+right join Perfil on perfil.ID= usuarios.perfil_id;
+``
