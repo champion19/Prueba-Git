@@ -31,10 +31,19 @@ Para poner en marcha este repositorio debes hacer lo siguiente
 ``INSERT INTO usuarios(pefil_id,nombre,apellido,email,fechacreacion)
 VALUES(1,'Emmanuel','Londoño Gomez','emmalondogo@gmail.com',now());``
 
-# hacer DELETE en SQL
-[Aqui](.sql/delete.sql)encontraras el comando adecuado para eliminar cualquier tipo de informacion de una tabla.
+# 5. Hacer DELETE en SQL
+[Aqui](.sql/delete.sql) encontraras el comando adecuado para eliminar cualquier tipo de informacion de una tabla.
 
 ``delete from usuarios(pefil_id,nombre,apellido,email,fechacreacion)
 VALUES(1,'Emmanuel','Londoño Gomez','emmalondogo@gmail.com',now());``
+
+# 6. Hacer ALTER TABLE en SQL
+
+[Aquí](.sql/alterTable.sql) encontraras el comando adecuado para realizar una modificación en una tabla determinada
+
+``
+ALTER TABLE perfiles
+ALTER COLUMN detalle nvarchar(255);
+``
 
 
