@@ -89,3 +89,7 @@ select nombre from usuarios where nombre in ('travis','santiago');
 
 # 15 USAR EL  COMMANDO **_Groupby_** En SQL
 [Aqui](./sql/groupby.sql)encontraras la forma adecuada de usar el comando para agrupar columnas que tienen el mismo valor y los resume en una columna.
+
+# 16 USAR EL COMMANDO **_OrderBy_** EN SQL
+[Aqui](./sql/orderBy.sql)encontraras la forma adecuada de usar el comando para 
+clasificar o ordenar de manera ascendente o descendente los resultados.
