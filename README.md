@@ -85,3 +85,7 @@ select nombre from usuarios where nombre in ('travis','santiago');
 [Aquí](./sql/and.sql) encontraras la forma adecuada de usar el comando para especificar si las condiciones asignadas por este, son ciertas.
 
 # 14 USAR EL COMANDO **_OR_** EN SQL
+[Aqui](./sql/OR.sql)encontraras la forma adecuada de usar el comando para decir si alguna de las condiciones dadas existe.
+
+# 15 USAR EL  COMMANDO **_Groupby_** En SQL
+[Aqui](./sql/groupby.sql)encontraras la forma adecuada de usar el comando para agrupar columnas que tienen el mismo valor y los resume en una columna.
