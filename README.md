@@ -93,3 +93,6 @@ select nombre from usuarios where nombre in ('travis','santiago');
 # 16 USAR EL COMMANDO **_OrderBy_** EN SQL
 [Aqui](./sql/orderBy.sql)encontraras la forma adecuada de usar el comando para 
 clasificar o ordenar de manera ascendente o descendente los resultados.
+
+# 17 USAR EL COMANDO **_Between_** EN SQL
+[Aqui](./sql/between.sql)encontraras la forma adecuada de usar el comando para seleccionar valores en un rango determinado. 
